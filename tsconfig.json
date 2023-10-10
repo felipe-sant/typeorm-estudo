@@ -1,0 +1,19 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es6"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "rootDir": "./src",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictPropertyInitialization": false,
+      "esModuleInterop": true, // se tiver dando erro no express e cors
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true
+   }
+}
